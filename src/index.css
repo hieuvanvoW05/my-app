@@ -8,6 +8,72 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hn-card {
+    margin: 20px;
+}
+
+.hn-card-image {
+    border-radius: 10px;
+    width: 300px;
+    height: 480px;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.hn-card-info {
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+.hn-card-title {
+    font-size: 24px;
+    margin: 0px;
+}
+  
+  
+.hn-card-sub-title {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.hn-project-image {
+    margin: 20px;
+    border-radius: 10px;
+    width: 900px;
+    height: 550px;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.hn-project-image1 {
+    margin: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.hn-project-image2 {
+    margin: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.sections{
+    background-color: orange;
+    color: white;
+}
+
+.personalInfo{
+    width: 100px;
+    text-align: left;
+}
+
+.custom-img {
+    height: 100vh;
+    object-fit: cover;
 }
